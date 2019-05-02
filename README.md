@@ -1,13 +1,9 @@
-Rice University ELEC327 MSP430 IR Motor Control
+Life in 3 Dimensions
 ===============================================
 
-This is a presentation and tutorial on utilizing an MSP430 G2553 with an IR remote to control motors.
-This project was created for [Rice University's](http://rice.edu) [ELEC 327](http://elec327.github.io/) Class as a lab on understanding motors and motion.
+This is a github project website to showcase our final project for [ELEC 327](http://elec327.github.io/) utilizing an MSP430 G2553 and SPI communications to implement Joseph Conway's "Game of Life" on a cube.
 
 Quick overview: 
 ----------------
-A 21 button IR Remote sends signals using an NEC IR signal protocol. An IR detector connected to an MSP430G2553 reads and decodes the signal.
-The MSP430 interprets the signal and sends the corresponding motor control signal through the motor driver. It uses PWM to drive a left and right motor such that the vehicle is able to turn left and right or move forward and backward.
+The user has the ability to traverse/set the initial states of cells on the cube using the button array on each face of the cube. When the user is satisfied with his/her setup, after a brief period of inactivity, the Game of Life simulation begins.
 
-Please see our [project page](http://xyh1.github.io/Rice_University_ELEC327_MSP430_IR-Motors/) for more information as well as video demos.
-Direct link to project page: http://xyh1.github.io/Rice_University_ELEC327_MSP430_IR-Motors/
